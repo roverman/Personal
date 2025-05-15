@@ -262,6 +262,10 @@ border: none;
 	height: 100%;
 }
 
+.square-card {
+  aspect-ratio: 1 / 1;
+}
+
 .navbar {
 	padding-top:  0px;
 	padding-bottom: 0px;
@@ -284,6 +288,14 @@ a {
 .my-shadow {
 	box-shadow: 0 2rem 3rem rgba(0,0,0,.10);
 /*	box-shadow: 0 1.5rem 3rem rgba(0,0,0,.10);*/
+}
+
+.my-neumorphism {
+	border-radius: 20px;
+	background-color: #F6F8FC !important;
+	background: #e0e0e0;
+	box-shadow: 4px 4px 8px #d9d9d9,
+            -4px -4px 8px #ffffff;
 }
 
 .my-middle {
