@@ -79,7 +79,7 @@ top: 30px;
 width: 100%;
 z-index: 100;
 background-color: rgba(0, 0, 0, 0.5);
-backdrop-filter: blur(1px);
+backdrop-filter: blur(2px);
 }
 
 
@@ -163,6 +163,10 @@ border: none;
 	background-color: #292b2c !important;
 }
 
+.body-light {
+	background-color: #F6F8FC !important;
+}
+
 .top-padding {
 	padding-top: 80px;
 }
@@ -221,7 +225,7 @@ border: none;
 }
 
 .nav-link {
-	color: #ddd;
+	color: #535353;
 	font-size: 14px;
 	font-weight: 500;
 	padding-top: 0;
@@ -279,7 +283,7 @@ border: none;
 	z-index: 1100;
 }
 
-ul.nav a:hover { color: #FFF !important; }
+ul.nav a:hover { color: #000 !important; }
 
 a {
 	padding-top: 0px;
@@ -347,15 +351,15 @@ a.btn-icon:hover {
 }
 
 .footer-icon {
-	color: #ddd;
+	color: #535353;
+}
+
+a.footer-icon:hover {
+	color: black;
 }
 
 .icon-m {
 	font-size: 20px;
-}
-
-a.footer-icon:hover {
-	color: white
 }
 
 .png-icon {
@@ -431,7 +435,7 @@ a.footer-icon:hover {
 	justify-content: center;
 	align-items: center;
 	z-index: 1100;
-	background-color: black;
+	background-color: white;
 }
 
 .logo-rotate {
@@ -536,7 +540,7 @@ position: relative;
 
 .active {
 	border-bottom:2px solid;
-	color: white;
+	color: black;
 }
 
 .active2 {
@@ -800,6 +804,18 @@ a.card {
     -webkit-animation-duration: 2000ms;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: ease;
+}
+
+.my-brands {
+	font-size:24px;
+}
+
+.my-brands strong {
+	margin-left: 1vw;
+	margin-right: 1vw;
+	display: inline-flex;  /* keep icon + text together */
+	align-items: center;   /* vertically center icon & text */
+	white-space: nowrap;   /* prevent icon and text from breaking */
 }
 
 

@@ -47,11 +47,11 @@ console.log(window.innerWidth);
 $(window).scroll(function() {
   if ($(document).scrollTop() > 40  ) {
     $('nav.smart').removeClass('my-bg-transparent');
-    $('nav.smart').addClass('my-bg-dark');
+    $('nav.smart').addClass('my-bg-light');
   } 
   else {
     $('nav.smart').addClass('my-bg-transparent');
-    $('nav.smart').removeClass('my-bg-dark');
+    $('nav.smart').removeClass('my-bg-light');
   }
 });
 
