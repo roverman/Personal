@@ -277,15 +277,20 @@ var $tocSections = $(".toc-section");
     // });
 // count number animation end
 
+//animation to play introVideo if clicked
+  const video = document.getElementById("hoverVideo");
 
+  // Pause when it finishes autoplay
+  video.addEventListener("ended", () => {
+    video.pause();
+  });
 
-
-
-
-
-
-
-
+  // Play from the beginning on click
+  video.addEventListener("click", () => {
+    video.currentTime = 0;
+    video.play();
+  });
+//animation to play introVideo if clicked
 
 
 
