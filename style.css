@@ -376,8 +376,8 @@ ul.nav a {
 
 
 ul.nav a:hover { 
+	background-color: rgba(0, 0, 0, 0.7);
 	color: white;
-	background-color: rgba(0, 0, 0, 0.8); /* Black with opacity */
 }
 
 a {
@@ -522,7 +522,7 @@ a {
     inset 0 2px 4px rgba(255, 255, 255, 0.1),
     inset 0 -2px 4px rgba(255, 255, 255, 0.1),
     inset 0 0 1px rgba(0, 0, 0, 0.1),
-    0 4px 16px rgba(0, 0, 0, 0.4);
+    0 4px 12px rgba(0, 0, 0, 0.3);
 
 
   backdrop-filter: blur(4px);
@@ -535,6 +535,10 @@ a {
 .glass-btn p {
   margin: 8px;
   line-height: 1;
+}
+
+.glass-btn img {
+  padding-top: 3px;
 }
 
 .glass-btn:hover {
@@ -550,7 +554,7 @@ a {
     inset 0 2px 4px rgba(255, 255, 255, 0.2),
     inset 0 -2px 4px rgba(255, 255, 255, 0.2),
     inset 0 0 1px rgba(0, 0, 0, 0.3),
-    0 4px 16px rgba(0, 0, 0, 0.6);
+    0 4px 12px rgba(0, 0, 0, 0.6);
 }
 /* Glass button end */ /* Glass button start */ /* Glass button start */ /* Glass button start */ /* Glass button start */
 
@@ -776,34 +780,20 @@ position: relative;
 }
 
 .active {
-	background-color: rgba(0, 0, 0, 0.8); /* Black with opacity */
+	background-color: rgba(0, 0, 0, 0.7);
 	color: white;
 }
+
+/*.active {
+	color: white;
+	background: rgba(0, 0, 0, 0.7);
+	box-shadow: inset -0px 2px 4px rgba(0, 0, 0, 0.6),
+              inset 0px -4px 8px rgba(255, 255, 255, 0.4);
+}*/
 
 .text-center {
 	text-align: center;
 }
-
-/*.my-dark {
-	height:  100vh;
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 400% 400%;
-  animation: gradient 20s ease infinite;
-}*/
-/*
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}*/
-
 
 /*Below are styles for projects*/
 
