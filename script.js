@@ -236,12 +236,18 @@ $(function() {
 
 // inject footer message start
 $(document).ready(function(){
-    $('footer').append("<p>" + "&copy 2025 Wei Tang, All Rights Reserved. Designed and Coded with Love." + "</p>");
+    const footerMessage = `
+        <div class="d-flex justify-content-center">
+            <a class="footer-icon icon-m" href="mailto:weitang.wayne@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+            <a class="footer-icon icon-m" href="https://www.linkedin.com/in/wei-tang-400a2485/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a class="footer-icon icon-m" href="https://www.instagram.com/devilrover/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2025 Wei Tang, All Rights Reserved. Designed and Coded with Love.</p>
+    `;
+
+    $('footer').append(footerMessage);
 });
 // inject footer message end
-
-
-
 
 
 
